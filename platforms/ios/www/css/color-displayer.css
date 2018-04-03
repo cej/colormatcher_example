@@ -1,0 +1,28 @@
+
+.lead {
+  padding: 6px 0;
+}
+.rgb-unit-display {
+  padding: 2px 6px;
+}
+#score-wrapper {
+  padding: 4px 0;
+  font-size: 1.25em;
+}
+.color-displayer {
+  height: 100px;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.color-zone-label {
+  text-align: center;
+  font-size: 1.1em;
+  background: #333;
+  color: #e6e6e6;
+  padding: 4px 0;
+  margin: 0;
+}
+#my-color-output {
+  border-top: 1px solid #111;
+}
