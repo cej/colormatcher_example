@@ -43,8 +43,6 @@
   <!-- Import convenience libraries -->
   <!-- jQuery Javascript Library -->
   <script type="text/javascript" src="vendor/js/vendor/jquery-3.3.1.min.js"></script>
-  <!-- Touchswipe is convenient for defining mobile gestures -->
-  <script type="text/javascript" src="vendor/js/vendor/touchswipe.min.js"></script>
   <!-- Bootstrap "Yeti" design, nice, basic components; responsive design -->
   <link rel="stylesheet" media="screen" href="vendor/css/bootstrap.yeti.min.css"/>
   <!-- Bootstrap Slider plugin (JS and CSS) to render our R,G,B sliders -->
@@ -54,26 +52,30 @@
   <!-- Custom CSS Components - index.css comes with PhoneGap and can be deleted -->
   <link rel="stylesheet" type="text/css" href="css/index.css" />
   <!-- Custom CSS Components - color-displayer to tweak some of the components -->
-  <link rel="stylesheet" type="text/css" href="css/color-displayer.css" />
+  <link rel="stylesheet" type="text/css" href="css/colors-app.css" />
 
   <title>Color Matcher</title>
 </head>
 
 <body>
   <div class="container-fluid">
+    <!-- Title Header -->
     <div class="lead text-center">Color Matcher!</div>
+    <!-- Display for Random Target Color -->
     <div class="row">
       <div class="col-12">
         <h5 class="color-zone-label">Target Color &dtrif;</h5>
         <div id="my-color-target" class="color-displayer"></div>
       </div>
     </div>
+    <!-- Display for My Current Color -->
     <div class="row">
       <div class="col-12">
         <div id="my-color-output" class="color-displayer"></div>
         <h5 class="color-zone-label">My Color &utrif;</h5>
       </div>
     </div>
+    <!-- Scoreboard and information -->
     <div class="row">
       <div class="col-12 text-center">
         <div id="score-wrapper"><p>Score: <span id="my-score">0</span></p></div>
@@ -84,6 +86,7 @@
         </p>
       </div>
     </div>
+    <!-- R,G,B Sliders -->
     <div class="row">
       <div class="col-12 text-center">
         <br/>
@@ -104,6 +107,7 @@
       </div>
     </div>
 
+    <!-- Button to Refresh the Game -->
     <div class="row">
       <div class="col-12 text-center">
         <br/><br/>
